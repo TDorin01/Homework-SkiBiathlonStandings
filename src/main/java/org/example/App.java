@@ -1,13 +1,14 @@
 package org.example;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        FileAthlete fileAthlete = new FileAthlete();
+        fileAthlete.readFile();
+
+
+
     }
 }
